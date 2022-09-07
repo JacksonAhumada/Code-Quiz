@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+button {
+    padding: 10px;
+    margin: 24px;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: #247BA0;
+    color: white;
+  }
+
+  .quiz-greating {
+
+    text-align: center;
+  border-style: solid;
+    border-color: blue;
+    margin: 0px 30%;
+}
+
+#startTime {
+   
+}
