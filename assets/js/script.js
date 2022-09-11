@@ -164,8 +164,9 @@ createSubmit.addEventListener("click", function () {
       allScores = JSON.parse(allScores);
     }
     allScores.push(finalScore);
-    var newScore = JSON.stringify("allScores", newScore);
-    window.location.replace("/HighScore.html");
+    var newScore = JSON.stringify(allScores);
+    localStorage.setItem("allScores", newScore);
+    window.location.replace("highScore.html");
   }
 });
 }
